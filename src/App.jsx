@@ -20,11 +20,11 @@ function App() {
       <h1>Some pizza</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          счётчик {count}
+          counter {count}
         </button>
       </div>
       <p className="read-the-docs">
-        Как понравилась пицца?
+        How did you like the pizza?
       </p>
     </>
   )
